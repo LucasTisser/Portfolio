@@ -1,13 +1,9 @@
-// Imports
-
 // - - - React - - -
 import React from "react";
 
 // - - - Custom - - -
 
-
 // - - - Library React Bootstrap - - -
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -20,21 +16,18 @@ import "./NavBar.css";
 export default function NavBar() {
   return (
     <div>
-      <Navbar bg="secondary" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">LucasTisser</Navbar.Brand>
+      <Navbar className="navBarContainer" expand="lg">
+        <Navbar.Brand className="logo" href="#home">Lucas</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse className="navItemsContainer" id="basic-navbar-nav">
+          <Nav className="navItems me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Sobre mi</Nav.Link>
-            <Nav.Link href="#link">Habilidades</Nav.Link>
-            <Nav.Link href="#link">Proyectos</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
-          
+            <Nav.Link href="#aboutMe">Sobre mi</Nav.Link>
+            <Nav.Link href="#skills">Habilidades</Nav.Link>
+            <Nav.Link href="#proyects">Proyectos</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
     </div>
   );

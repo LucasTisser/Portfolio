@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.navBarContainer{
+    background-color: #209F8D;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo{
+    font-family: 'Comfortaa', cursive;
+    font-weight:900;
+    font-size: 30px;
+}
+
+.navItemsContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navItems{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 5px;
+    margin-right: 0px !important;
+    justify-content:flex-end;
+}
