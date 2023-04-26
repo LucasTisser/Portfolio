@@ -1,6 +1,6 @@
-.homeCss {
-    height: 650px;
-    padding: 25px;
+.homeContainer {
+    height: 40em;
+    padding: 0px 100px 0 100px;
     background-color: #D0E5D8;
     display: flex;
     align-items:center;

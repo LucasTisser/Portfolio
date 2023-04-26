@@ -1,4 +1,30 @@
-.section1 {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+.aboutMe {
     background-color: #97B1AB;
     height: 100vh;
+    padding: 0px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMeTittle {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 15px 0px 15px 0px;
+    padding: 5px;
+}
+
+.aboutMeTittleLine{
+    width: 40%;
+}
+
+.aboutMeContainer{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
 }
