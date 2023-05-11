@@ -1,0 +1,28 @@
+.timeline {
+    display: grid;
+    grid-template-areas:
+    "box1 box3"
+    "box2 box3"
+}
+
+.circle{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #F3B61F;
+    grid-area: box1;
+}
+
+.line {
+    width: 0.3em;
+    height: 10em;
+    margin-left: 0.7em;
+    border-radius: 25em;
+    /* display: inline-block; */
+    background-color: #F3B61F;
+    grid-area: box2;
+}
+
+.timelineTitle{
+    grid-area: box3;
+}
